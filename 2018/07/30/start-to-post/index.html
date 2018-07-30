@@ -3,15 +3,19 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Archivo | Mind digger</title>
+    <title>Mind digger</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
+    <meta name="description" content="Start to blogIt has been a while that I hoped that I can write posts regularly. What is going to be bloggedThere would be couple of purposes that I plan to blog">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Mind digger">
-<meta property="og:url" content="https://eoodin.github.io/archives/index.html">
+<meta property="og:url" content="https://eoodin.github.io/2018/07/30/start-to-post/index.html">
 <meta property="og:site_name" content="Mind digger">
+<meta property="og:description" content="Start to blogIt has been a while that I hoped that I can write posts regularly. What is going to be bloggedThere would be couple of purposes that I plan to blog. Technical thoughts, I come up with ide">
 <meta property="og:locale" content="en_US">
+<meta property="og:updated_time" content="2018-07-30T08:30:36.681Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mind digger">
+<meta name="twitter:description" content="Start to blogIt has been a while that I hoped that I can write posts regularly. What is going to be bloggedThere would be couple of purposes that I plan to blog. Technical thoughts, I come up with ide">
     
 
     
@@ -208,34 +212,110 @@
 </aside>
 
             
-            <section id="main"><div class="timeline timeline-wrap">
-    
-            <div class="timeline-row timeline-row-major">
-                <span class="node"><i class="fas fa-calendar-alt"></i></span>
-                <h1 class="title">2018</h1>
-            </div>
+            <section id="main"><article id="post-start-to-post" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
-                
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fas fa-calendar-alt"></i>
-        <a href="/2018/07/30/start-to-post/">
-            <time datetime="2018-07-30T08:30:36.681Z" itemprop="datePublished">2018-07-30</time>
-        </a>
-    </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <h1 id="Start-to-blog"><a href="#Start-to-blog" class="headerlink" title="Start to blog"></a>Start to blog</h1><p>It has been a while that I hoped that I can write posts regularly.</p>
+<h1 id="What-is-going-to-be-blogged"><a href="#What-is-going-to-be-blogged" class="headerlink" title="What is going to be blogged"></a>What is going to be blogged</h1><p>There would be couple of purposes that I plan to blog.</p>
+<p>Technical thoughts, I come up with ideas now and then, some of them are worthing thinking about further.</p>
+<p>Learning notes, It is a good way to write down important points or outline in learning new tech. </p>
+<p>New findings, share new findings that might be helpful for me and others.</p>
 
-
-                    
-                    
-                </div>
-            </div>
+        
         </div>
-    
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
 </div>
+
+    <a data-url="https://eoodin.github.io/2018/07/30/start-to-post/" data-id="cjk805tb000006bclhjrovnyd" class="article-share-link"><i class="fas fa-share"></i>Compartir</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fab fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fab fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fab fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fab fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+
+        </footer>
+    </div>
+    
+        
+
+    
+</article>
+
+
+    
+    
+
 </section>
             
                 
